@@ -1,7 +1,11 @@
-/* kumascript errors block at the top of an article */
+/*
+kumascript errors block at the top of an article
+☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ */
+
 #kserrors {
     ul {
         list-style-type: none;
+        /* stylelint-disable-next-line declaration-no-important */
         padding-left: 0 !important;
     }
 }

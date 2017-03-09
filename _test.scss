@@ -1,0 +1,174 @@
+.test {
+    color: #00f;
+}
+
+.singleline {
+    color: #00f;
+}
+
+.test1 {
+    color: #00f;
+}
+
+.test1,
+.test2 {
+    color: #00f;
+}
+
+.test {
+    .test {
+        color: #00f;
+    }
+}
+
+.selector {
+    background-image:
+        linear-gradient(#fff, #ccc),
+        linear-gradient(#f3c, #4ec);
+    box-shadow:
+        1px 1px 1px #000,
+        2px 2px 1px 1px #ccc inset;
+    transition:
+        border-color .5s ease-in,
+        opacity .1s ease-in;
+}
+
+h1 {
+    color: value;
+}
+
+.widget {
+    background: #ccc;
+    background: linear-gradient(rgba(155, 155, 155, .25), rgba(155, 155, 155, .5));
+}
+
+
+.module-news h2 {
+    font: 20px 'League Gothic', sans-serif;
+}
+
+.module-news h3 {
+    font: 16px Georgia, serif;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/media/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/media/fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('/media/fonts/OpenSans-Bold-webfont.ttf') format('truetype');
+}
+
+.selector {
+    background-image:
+        linear-gradient(#fff, #ccc),
+        linear-gradient(#f3c, #4ec);
+    box-shadow:
+        1px 1px 1px #000,
+        2px 2px 1px 1px #ccc inset;
+    transition:
+        border-color .5s ease-in,
+        opacity .1s ease-in;
+}
+
+.selector {
+    background: -webkit-linear-gradient(to bottom, #fff, #000);
+    background:    -moz-linear-gradient(to bottom, #fff, #000);
+    background:     -ms-linear-gradient(to bottom, #fff, #000);
+    background:      -o-linear-gradient(to bottom, #fff, #000);
+    background:         linear-gradient(to bottom, #fff, #000);
+}
+
+@media screen and (color), projection and (color) {
+    .test {
+        color: #00f;
+    }
+}
+
+
+@import '';
+
+/*
+About this file
+- more notes
+- lines have a newline after them
+Paragraphs are also okay.
+☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ */
+
+/*
+Heading
+- info
+- if you omit the top level file heading, still start with this level
+- you can also just use the seperator if you can't think of a heading
+====================================================================== */
+
+.rule {
+    color: #00f;
+}
+
+/* =================================================================== */
+
+
+/*
+Heading
+- info
+-------------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+
+/*
+Heading
+- info
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+/*  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+
+/*
+Heading
+- you should not need any more levels than this
+- you might want to consider breaking up your files
+-   -   -   -   -   -   -   -   -   -   -   -   -  */
+/*  -   -   -   -   -   -   -   -   -   -   -   -  */
+
+/*
+multi-line comment for the next few
+rules has a newline after it */
+
+/* comment for the next few rules has a newline */
+
+.rule1 {
+    color: #00f;
+}
+
+.rule2 {
+    color: #00f;
+}
+
+/* */
+
+/* single-line comment for this rule, no newline */
+.rule {
+    color: #00f; // inline comment
+}
+
+/*
+Multi line comment about
+the rule that immediately follows
+it, no newline after */
+.rule {
+    /* multi line comment about the declaration
+    that immediately follows it */
+    color: #00f;
+}
+
+.rule {
+    /* stylelint-disable declaration-no-important */
+    color: #00f !important;
+    background-color: #f00 !important;
+    /* stylelint-enable */
+}
+
+.rule {
+    color: #00f !important;  /* stylelint-disable-line declaration-no-important */
+}

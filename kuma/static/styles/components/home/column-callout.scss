@@ -1,14 +1,16 @@
 /*
 colorful callouts
-====================================================================== */
+☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ */
+
 $callout-icon-spacing: 25px;
 $callout-icon-width: 90px;
 
 .column-callout {
     @include column-4();
-    background: #00539F;
+    background: #00539f;
 
     a {
+        /* stylelint-disable-next-line declaration-no-important */
         color: $blue-background-text-color !important;
         display: block;
         min-height: 170px;
@@ -30,7 +32,7 @@ $callout-icon-width: 90px;
         &:before {
             @include bidi-style(content, '\f061', content, '\f060');
             @include bidi-style(right, $grid-spacing, left, auto);
-            font-family: 'FontAwesome';
+            font-family: FontAwesome;
             bottom: 11px;
             position: absolute;
             @include set-font-size(24px);
@@ -53,6 +55,7 @@ $callout-icon-width: 90px;
 /*
 Colours and icons
 -------------------------------------------------------------- */
+
 .callout-foundation {
     background: #523e53;
 
@@ -109,11 +112,13 @@ Colours and icons
 /*
 Promos
 -------------------------------------------------------------- */
+
 .callout-saucelabs {
-    background-color: #82D1F5;
+    background-color: #82d1f5;
 
     a {
         @include set-font-size(14px);
+        /* stylelint-disable-next-line declaration-no-important */
         color: #000 !important;
         font-weight: bold;
 
@@ -136,7 +141,7 @@ Promos
 
         button {
             @include bidi-style(text-align, left, text-align, right);
-            background: #82D1F5;
+            background: #82d1f5;
             border: 2px solid #fff;
             border-radius: 0;
             box-shadow: none;
@@ -190,7 +195,6 @@ Media queries
 }
 
 @media #{$media-query-mobile} {
-
     .column-callout {
         margin-bottom: $grid-spacing;
     }

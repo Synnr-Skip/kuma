@@ -15,7 +15,9 @@
 }
 
 /* set minimum heights on main columns */
-#wiki-right, #wiki-left, #wiki-content {
+#wiki-right,
+#wiki-left,
+#wiki-content {
     min-height: 1px; /* ensures that when TOC becomes fixed, the column has width */
 }
 
@@ -50,10 +52,12 @@
             width: $grid-width-column-main;
             margin-right: 0;
         }
+
         #wiki-right {
             @include enable-toc-toggle();
             padding-bottom: ($grid-spacing * 2);
         }
+
         #wiki-left {
             float: none;
         }
@@ -68,6 +72,7 @@
     }
 
     #wiki-column-container, #wiki-content {
+        /* stylelint-disable-next-line declaration-no-important */
         width: auto !important;
     }
 }
